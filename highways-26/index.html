@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./src/styles/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="./src/styles/loader.css">
+    
+    <title>Highways '26</title>
+
+</head>
+<div id="loader">
+
+    <div class="door door-left"></div>
+    <div class="door door-right"></div>
+
+</div>
+<body>
+
+    <!-- Header Section -->
+    <header class="fixed top-0 left-0 w-full flex justify-center z-50 px-4">
+
+        <div class="mt-4 w-full max-w-6xl flex items-center justify-between px-6 py-3
+                    bg-white/10 backdrop-blur-lg border border-white/20
+                    rounded-full shadow-lg">
+
+            <!-- Logo -->
+            <div class="text-lg font-semibold">
+                Highways '26
+            </div>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex gap-8 text-sm font-medium">
+
+                <a href="#" class="hover:text-gray-300 transition">Home</a>
+                <a href="./src/pages/events.html" class="hover:text-gray-300 transition">Events</a>
+                <a href="./src/pages/schedule.html" class="hover:text-gray-300 transition">Schedule</a>
+                <a href="./src/pages/passes.html" class="hover:text-gray-300 transition">Get Passes</a>
+                <a href="./src/pages/sponsors.html" class="hover:text-gray-300 transition">Sponsors</a>
+                <a href="./src/pages/team.html" class="hover:text-gray-300 transition">Team</a>
+
+            </nav>
+
+            <!-- Mobile Button -->
+            <button id="menu-btn" class="md:hidden flex flex-col gap-1">
+
+                <span class="w-6 h-[2px] bg-black"></span>
+                <span class="w-6 h-[2px] bg-black"></span>
+                <span class="w-6 h-[2px] bg-black"></span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu"
+        class="fixed top-0 left-0 w-full h-screen bg-white/90 backdrop-blur-lg
+                flex flex-col items-center justify-center gap-8 text-xl font-semibold
+                translate-y-[-100%] transition-transform duration-300">
+
+        <a href="#">Home</a>
+        <a href="./src/pages/events.html">Events</a>
+        <a href="./src/pages/schedule.html">Schedule</a>
+        <a href="./src/pages/passes.html">Get Passes</a>
+        <a href="./src/pages/sponsors.html">Sponsors</a>
+        <a href="./src/pages/team.html">Team</a>
+
+    </div>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero-sec relative min-h-screen flex items-center overflow-hidden px-6">
+
+        <div class="max-w-7xl mx-auto w-full flex flex-col items-center text-center gap-6 relative z-10">
+
+            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
+            HIGHWAYS '26
+            </h1>
+
+            <p class="text-base md:text-xl font-medium">
+            Door to Heaven Opens on
+            </p>
+
+            <!-- Countdown -->
+            <div id="countdown" class="countdown-text font-black tracking-[0.08em] justify-center">
+
+                <span id="days">00</span><span class="unit">D</span>
+                <span id="hours">00</span><span class="unit">H</span>
+                <span id="minutes">00</span><span class="unit">M</span>
+                <span id="seconds">00</span><span class="unit">S</span>
+
+            </div>
+
+        </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section class="about-sec w-full px-6 md:px-12 lg:px-20 py-24 md:py-32">
+
+            <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="flex flex-col gap-10">
+
+                <h2 class="text-3xl md:text-5xl font-bold tracking-wide">
+                    THE SAGA BEGINS
+                </h2>
+
+                <div class="max-w-xl text-base md:text-lg leading-relaxed space-y-6">
+                    <p>
+                    Highways is the annual intercollegiate cultural festival of
+                    Sri Venkateswara College of Engineering (SVCE). Known for its
+                    vibrant atmosphere and creative energy, Highways brings
+                    together students from across the states to celebrate art,
+                    talent, and expression.
+                    </p>
+                </div>
+
+                <!-- DAY BUTTONS -->
+<div class="flex flex-wrap gap-6" id="days-container">
+
+  <button class="day-btn day1-btn" data-day="1">Day 1</button>
+
+  <button class="day-btn day2-btn" data-day="2">Day 2</button>
+
+  <button class="day-btn day3-btn" data-day="3">Day 3</button>
+
+</div>
+
+                <div id="day-overlay">
+
+                    <div id="day-dialog">
+
+                        <div class="dialog-content">
+                        <h2 id="dialog-title"></h2>
+                        <p id="dialog-text"></p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+                <!-- RIGHT VIDEO -->
+                <div class="relative w-full h-[320px] md:h-[420px] lg:h-[500px] overflow-hidden rounded-2xl">
+
+                <video
+                    id="video-grow"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                    class="w-full h-full object-cover"
+                >
+                    <source src="./src/assets/about.mp4" type="video/mp4">
+                </video>
+
+                </div>
+
+            </div>
+
+        </section>
+        
+        <!-- Celebrity Section -->
+        <section class="celeb-sec min-h-screen flex flex-col items-center justify-center py-20">
+
+            <!-- Title -->
+            <h2 class="text-5xl md:text-6xl font-bold text-black mb-20">
+                Celebrity Reveal
+            </h2>
+
+            <!-- Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-12 w-full max-w-6xl mx-auto place-items-center">
+
+                <!-- Card -->
+                <div class="celeb-placeholder">
+                    <div class="placeholder-box">
+                        <span>COMING<br>SOON</span>
+                    </div>
+                </div>
+
+                <div class="celeb-placeholder">
+                    <div class="placeholder-box">
+                        <span>COMING<br>SOON</span>
+                    </div>
+                </div>
+
+                <div class="celeb-placeholder">
+                    <div class="placeholder-box">
+                        <span>COMING<br>SOON</span>
+                    </div>
+                </div>
+
+                <!-- center last card -->
+                <div class="celeb-placeholder md:col-span-3 flex justify-center">
+                    <div class="placeholder-box">
+                        <span>COMING<br>SOON</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Glimpse Section -->
+        <section id="movie-section" class="movie-wrapper min-h-screen">
+
+            <div class="movie-sticky">
+
+                <!-- horizontal container -->
+                <div id="movie-track">
+
+                    <div class="movie-tile vertical" style="top:18%; left:120px;">1</div>
+
+                    <div class="movie-tile horizontal" style="top:42%; left:420px;">2</div>
+
+                    <div class="movie-tile vertical" style="top:8%; left:880px;">3</div>
+
+                    <div class="movie-tile horizontal" style="top:50%; left:1250px;">4</div>
+
+                    <div class="movie-tile vertical" style="top:22%; left:1700px;">5</div>
+
+                    <div class="movie-tile horizontal" style="top:12%; left:2150px;">6</div>
+
+                    <div class="movie-tile vertical" style="top:48%; left:2600px;">7</div>
+
+                    <div class="movie-tile horizontal" style="top:28%; left:3050px;">8</div>
+
+                    <div class="movie-tile vertical" style="top:10%; left:3500px;">9</div>
+
+                    <div class="movie-tile horizontal" style="top:44%; left:3950px;">10</div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Pass Section -->
+        <section class="pass-sec min-h-screen flex items-center justify-center text-white">
+            <h2 class="text-5xl font-semibold">
+                Get Your Pass
+            </h2>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="w-full px-6 md:px-12 lg:px-20 py-24 text-white">
+
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+
+            <!-- LEFT SIDE -->
+            <div class="space-y-6">
+
+            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight">
+                Frequently asked
+                <span class="text-white/70">Questions</span>
+            </h2>
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="space-y-4">
+
+            <div class="faq-item">
+                <button class="faq-question">
+                How many events a delegate can participate?
+                <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                A delegate can participate in multiple events depending on the event
+                schedule and availability.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                What is the last date for registration?
+                <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                Registration closes one week before the event begins.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                What are the supporting facilities provided?
+                <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                Accommodation guidance, parking, food stalls, and help desks will be
+                available.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                What are the policies to be followed?
+                <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                Delegates must follow event guidelines and institutional rules.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">
+                How about parking facilities for vehicles?
+                <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer">
+                Parking areas will be allocated inside the campus for participants.
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="w-full px-6 md:px-12 lg:px-20 py-24 text-white">
+
+            <div class="max-w-7xl mx-auto">
+
+                <!-- Heading -->
+                <div class="mb-16 max-w-3xl space-y-3">
+                    <h2 class="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight">
+                        For registration queries,
+                    </h2>
+                    <p class="text-2xl sm:text-3xl text-gray-300">
+                        please contact
+                    </p>
+                </div>
+
+                <!-- Contact Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+
+                    <!-- Card -->
+                    <div class="border border-white/15 rounded-2xl p-8 lg:p-10 space-y-5 transition duration-300 hover:border-white/30">
+
+                        <h3 class="text-2xl lg:text-3xl font-semibold tracking-tight">
+                            Pranneeth D K
+                        </h3>
+
+                        <div class="space-y-2 text-gray-300">
+                            <p class="text-lg">+91 6379560034</p>
+                            <p class="text-lg">mail@pranneethdk.in</p>
+                        </div>
+
+                    </div>
+
+                    <!-- Card -->
+                    <div class="border border-white/15 rounded-2xl p-8 lg:p-10 space-y-5 transition duration-300 hover:border-white/30">
+
+                        <h3 class="text-2xl lg:text-3xl font-semibold tracking-tight">
+                            Sowndhar V
+                        </h3>
+
+                        <div class="space-y-2 text-gray-300">
+                            <p class="text-lg">+91 9025366598</p>
+                            <p class="text-lg">sowndhar06.v@gmail.com</p>
+                        </div>
+
+                    </div>
+
+                    <!-- Card -->
+                    <div class="border border-white/15 rounded-2xl p-8 lg:p-10 space-y-5 transition duration-300 hover:border-white/30">
+
+                        <h3 class="text-2xl lg:text-3xl font-semibold tracking-tight">
+                            Sharvesh
+                        </h3>
+
+                        <div class="space-y-2 text-gray-300">
+                            <p class="text-lg">+91 6380168529</p>
+                            <p class="text-lg">Lorem ipsum dolor sit amet</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Location Section -->
+        <section class="w-full px-6 md:px-12 lg:px-20 py-24 text-white">
+            
+            <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+
+                <!-- LEFT CONTENT -->
+                <div class="space-y-8 max-w-xl">
+
+                    <h2 class="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight">
+                        Join Us at
+                        <br>
+                        Sri Venkateswara
+                        <br>
+                        College of
+                        <br>
+                        Engineering
+                    </h2>
+
+                    <p class="text-base sm:text-lg text-gray-300 leading-relaxed">
+                        FIESTAA'26 will be hosted at the vibrant campus of
+                        <span class="font-semibold text-white">
+                            Sri Venkateswara College of Engineering
+                        </span>,
+                        offering world-class infrastructure, spacious venues, and an energetic
+                        atmosphere to celebrate culture, talent, and innovation.
+                    </p>
+
+                </div>
+
+                <!-- MAP -->
+                <div class="relative w-full h-[320px] sm:h-[380px] md:h-[420px] lg:h-[460px] rounded-2xl overflow-hidden shadow-xl">
+
+                    <iframe
+                        src="https://www.google.com/maps?q=Sri+Venkateswara+College+of+Engineering&output=embed"
+                        class="absolute inset-0 w-full h-full border-0"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+
+        <!-- 3-grids -->
+        <div class="footer-content"></div>
+
+        <!-- footer-name -->
+        <div></div>
+        
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./src/js/app.js"></script>
+</body>
+</html>

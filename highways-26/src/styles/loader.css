@@ -1,0 +1,57 @@
+/* Loader container */
+#loader{
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  display: flex;
+  pointer-events: none;
+}
+
+/* doors */
+.door{
+  width: 50%;
+  height: 100vh;
+  background: #f5efe6;
+  border-right: 4px solid #d6c7a1;
+  position: relative;
+}
+
+/* Shoji grid pattern */
+.door::before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background-image:
+    linear-gradient(#d6c7a1 2px, transparent 2px),
+    linear-gradient(90deg,#d6c7a1 2px, transparent 2px);
+  background-size:60px 60px;
+  opacity:0.5;
+}
+
+/* right door border fix */
+.door-right{
+  border-right:none;
+  border-left:4px solid #d6c7a1;
+}
+
+/* animation */
+.open-left{
+  animation: slideLeft 1.5s ease forwards;
+}
+
+.open-right{
+  animation: slideRight 1.5s ease forwards;
+}
+
+@keyframes slideLeft{
+  to{
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideRight{
+  to{
+    transform: translateX(100%);
+  }
+}
+
