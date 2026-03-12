@@ -14,8 +14,7 @@ const pool = new Pool({
   port: 5432,
 });
 
-// API to get users
-app.get("/users", async (req, res) => {
+app.get("/xmldata", async (req, res) => {
   try {
     const result = await pool.query("SELECT * FROM xmldata");
     res.json(result.rows);
