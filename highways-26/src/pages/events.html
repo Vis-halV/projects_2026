@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="../styles/index.css" rel="stylesheet">
+<link rel="stylesheet" href="../styles/loader.css">
+<link rel="stylesheet" href="../styles/scroll.css">
+
+<title>Events • Highways '26</title>
+</head>
+
+<body>
+
+<div id="loader" aria-hidden="true">
+<div class="door door-left"></div>
+<div class="door door-right"></div>
+</div>
+
+<!-- HEADER (UNCHANGED) -->
+<header class="fixed top-0 left-0 w-full flex justify-center z-50 px-6 md:px-12 lg:px-20">
+
+<div class="mt-4 w-full max-w-7xl flex items-center justify-between px-6 py-3 text-white
+bg-white/10 backdrop-blur-lg border border-white/20
+rounded-full shadow-lg">
+
+<div class="text-lg font-semibold tracking-tight">
+Highways '26
+</div>
+
+<nav class="hidden md:flex gap-8 text-sm font-medium">
+
+<a href="../../index.html" class="hover:text-white/70 transition duration-300">Home</a>
+<a href="./events.html" class="hover:text-white/70 transition duration-300">Events</a>
+<a href="./schedule.html" class="hover:text-white/70 transition duration-300">Schedule</a>
+<a href="./passes.html" class="hover:text-white/70 transition duration-300">Get Passes</a>
+<a href="./sponsors.html" class="hover:text-white/70 transition duration-300">Sponsors</a>
+
+</nav>
+
+<button id="menu-btn" type="button" class="md:hidden flex flex-col gap-1">
+<span class="w-6 h-[2px] bg-white"></span>
+<span class="w-6 h-[2px] bg-white"></span>
+<span class="w-6 h-[2px] bg-white"></span>
+</button>
+
+</div>
+</header>
+
+
+<!-- MOBILE MENU (UNCHANGED) -->
+<div id="mobile-menu"
+class="fixed top-0 left-0 z-50 w-full h-screen bg-black/70 text-white backdrop-blur-lg
+flex flex-col items-center justify-center gap-8 text-xl font-semibold
+-translate-y-full transition-transform duration-300">
+
+<a href="../../index.html">Home</a>
+<a href="./events.html">Events</a>
+<a href="./schedule.html">Schedule</a>
+<a href="./passes.html">Get Passes</a>
+<a href="./sponsors.html">Sponsors</a>
+
+</div>
+
+
+<main>
+
+<!-- EVENTS HERO -->
+<section class="w-full px-6 md:px-12 lg:px-20 pt-40 pb-20 text-center">
+
+<div class="max-w-7xl mx-auto">
+
+<h1 class="text-4xl md:text-5xl lg:text-6xl font-semibold tracking-tight">
+EVENTS
+</h1>
+
+<p class="ds-subtitle mt-6">
+Choose your battlefield.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- EVENTS SECTION (REDESIGNED) -->
+<section class="events-sec w-full px-6 md:px-12 lg:px-20 pb-32">
+
+<!-- Tailwind class safelist for JS-toggled theme classes -->
+<div class="hidden bg-[#FFE8E8] bg-[#E8F1FF] bg-[#E9FFE8] bg-[#FFF5E6] bg-[#F3E8FF] border-[#ff9ac6] text-[#ff9ac6] bg-[#ff9ac6] border-[#8b0000] text-[#8b0000] bg-[#8b0000] ring-2 ring-black/20 ring-[#8b0000] ring-offset-2 ring-offset-white/70 hover:brightness-95"></div>
+
+<div class="max-w-7xl mx-auto">
+
+<!-- FILTERS -->
+<div class="flex flex-col items-center gap-5 pb-10">
+
+<!-- DAY FILTER -->
+<div class="flex flex-wrap justify-center gap-3" role="group" aria-label="Day filter">
+
+<button type="button" class="day-filter active rounded-full px-4 py-2 text-sm font-semibold border backdrop-blur-md transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20 border-white bg-white text-black hover:bg-white" data-day="all" aria-pressed="true">All Days</button>
+<button type="button" class="day-filter rounded-full px-4 py-2 text-sm font-semibold border backdrop-blur-md transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20 border-[#ff9ac6] text-[#ff9ac6] bg-white/10 hover:bg-[#ff9ac6] hover:text-black" data-day="1" aria-pressed="false">Day 1</button>
+<button type="button" class="day-filter rounded-full px-4 py-2 text-sm font-semibold border backdrop-blur-md transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20 border-white text-white bg-white/10 hover:bg-white hover:text-black" data-day="2" aria-pressed="false">Day 2</button>
+<button type="button" class="day-filter rounded-full px-4 py-2 text-sm font-semibold border backdrop-blur-md transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20 border-[#8b0000] text-[#8b0000] bg-white/10 hover:bg-[#8b0000] hover:text-white" data-day="3" aria-pressed="false">Day 3</button>
+
+</div>
+
+<!-- CATEGORY FILTER -->
+<div class="flex flex-wrap justify-center gap-3" role="group" aria-label="Category filter">
+
+<button type="button" class="cat-filter active rounded-full px-4 py-2 text-sm font-semibold border backdrop-blur-md transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20 border-white bg-white text-black hover:bg-white" data-category="all" aria-pressed="true">All</button>
+<button type="button" class="cat-filter rounded-full px-4 py-2 text-sm font-semibold border backdrop-blur-md transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20 border-black/10 bg-[#FFE8E8] text-black hover:brightness-95" data-category="Dance" aria-pressed="false">Dance</button>
+<button type="button" class="cat-filter rounded-full px-4 py-2 text-sm font-semibold border backdrop-blur-md transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20 border-black/10 bg-[#E8F1FF] text-black hover:brightness-95" data-category="Music" aria-pressed="false">Music</button>
+<button type="button" class="cat-filter rounded-full px-4 py-2 text-sm font-semibold border backdrop-blur-md transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20 border-black/10 bg-[#FFF5E6] text-black hover:brightness-95" data-category="Gaming" aria-pressed="false">Gaming</button>
+<button type="button" class="cat-filter rounded-full px-4 py-2 text-sm font-semibold border backdrop-blur-md transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20 border-black/10 bg-[#F3E8FF] text-black hover:brightness-95" data-category="Drama" aria-pressed="false">Drama</button>
+<button type="button" class="cat-filter rounded-full px-4 py-2 text-sm font-semibold border backdrop-blur-md transition duration-200 hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20 border-black/10 bg-[#E9FFE8] text-black hover:brightness-95" data-category="Technical" aria-pressed="false">Technical</button>
+
+</div>
+
+</div>
+
+<!-- GRID -->
+<div id="events-grid"
+class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-10">
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<!-- FOOTER (UNCHANGED) -->
+<footer class="w-full px-6 md:px-12 lg:px-20 py-20">
+
+<div class="max-w-7xl mx-auto flex flex-col items-center text-center gap-10">
+
+<img src="../assets/highways-logo.webp"
+class="h-12 w-auto object-contain"/>
+
+<nav class="flex flex-wrap justify-center gap-6 md:gap-8 text-sm font-medium">
+
+<a href="../../index.html">Home</a>
+<a href="./events.html">Events</a>
+<a href="./schedule.html">Schedule</a>
+<a href="./passes.html">Get Passes</a>
+<a href="./sponsors.html">Sponsors</a>
+<a href="#faq">FAQ</a>
+
+</nav>
+
+<nav class="flex flex-wrap justify-center gap-6 md:gap-8 text-sm font-medium">
+
+<a href="https://instagram.com">Instagram</a>
+<a href="#contact">Contact</a>
+
+</nav>
+
+<p class="text-sm text-white/60">
+© 2026 Highways
+</p>
+
+</div>
+
+</footer>
+
+
+<script src="../js/events.js"></script>
+<script src="../js/app.js"></script>
+
+<!-- EVENT DETAILS DIALOG -->
+<div
+  id="event-dialog-overlay"
+  class="fixed inset-0 z-[60] hidden items-center justify-center bg-black/70 backdrop-blur-md px-6">
+
+  <div
+    id="event-dialog"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="event-dialog-title"
+    class="w-[min(92vw,560px)] max-h-[80vh] overflow-auto bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-6 md:p-8 text-white shadow-lg">
+
+    <div class="flex items-start justify-between gap-6">
+      <div>
+        <h2 id="event-dialog-title" class="text-2xl font-semibold"></h2>
+        <p id="event-dialog-category" class="text-white/70 mt-2"></p>
+      </div>
+
+      <button
+        id="event-dialog-close"
+        type="button"
+        class="bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white/20 hover:border-white/30 rounded-full px-4 py-2 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20"
+        aria-label="Close dialog">
+        Close
+      </button>
+    </div>
+
+    <div class="mt-6 space-y-3 text-sm">
+      <p><span class="font-semibold">Day:</span> <span id="event-dialog-day"></span></p>
+      <p><span class="font-semibold">Date:</span> <span id="event-dialog-date"></span></p>
+      <p><span class="font-semibold">Time:</span> <span id="event-dialog-time"></span></p>
+      <p><span class="font-semibold">Location:</span> <span id="event-dialog-location"></span></p>
+    </div>
+
+    <div class="mt-8 flex gap-3">
+      <a
+        id="event-dialog-register"
+        href="#"
+        class="inline-flex flex-1 items-center justify-center bg-white/10 backdrop-blur-md border border-white/20 text-white hover:bg-white/20 hover:border-white/30 rounded-full px-6 py-3 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/70 focus-visible:ring-offset-2 focus-visible:ring-offset-black/20">
+        Register
+      </a>
+    </div>
+
+  </div>
+</div>
+
+</body>
+</html>

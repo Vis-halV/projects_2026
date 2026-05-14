@@ -1,0 +1,1103 @@
+[
+  {
+    "id": 1,
+    "title": "Shoot and Broadcast",
+    "category": "Drama",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "CB312",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1541179619977-1b0394018282?q=80&w=1000",
+    "description": "Join the amazing Shoot and Broadcast event by Curtain Call. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Curtain Call Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Mime",
+    "category": "Drama",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "location": "MPH",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1541179619977-1b0394018282?q=80&w=1000",
+    "description": "Join the amazing Mime event by Curtain Call. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣4.5K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Curtain Call Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Adzap",
+    "category": "Drama",
+    "day": 3,
+    "date": "April 11, 2026",
+    "time": "10:00 AM",
+    "location": "CB301",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1541179619977-1b0394018282?q=80&w=1000",
+    "description": "Join the amazing Adzap event by Curtain Call. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Curtain Call Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Freeze Frame",
+    "category": "Drama",
+    "day": 3,
+    "date": "April 11, 2026",
+    "time": "02:00 PM",
+    "location": "Campus Venue",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1541179619977-1b0394018282?q=80&w=1000",
+    "description": "Join the amazing Freeze Frame event by Curtain Call. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Curtain Call Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "IPL Auction",
+    "category": "Speech",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "Campus Venue",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=1000",
+    "description": "Join the amazing IPL Auction event by Reading Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Reading Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Sorting Hat Conspiracy",
+    "category": "Speech",
+    "day": 3,
+    "date": "April 11, 2026",
+    "time": "10:00 AM",
+    "location": "Block 5 (1st Floor)",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=1000",
+    "description": "Join the amazing Sorting Hat Conspiracy event by Reading Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣K",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Reading Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Trust the Process",
+    "category": "Tech",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "CB513",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000",
+    "description": "Join the amazing Trust the Process event by EWB. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣1.5K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "EWB Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Chaos Director",
+    "category": "Tech",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "location": "CB 304",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000",
+    "description": "Join the amazing Chaos Director event by EWB. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "EWB Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Who the sus",
+    "category": "Tech",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "CB515 & CB516",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000",
+    "description": "Join the amazing Who the sus event by ISTD. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "ISTD Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Money moves in your hand",
+    "category": "Tech",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "location": "CB515 & CB516",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000",
+    "description": "Join the amazing Money moves in your hand event by ISTD. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "ISTD Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Scavenger Hunt",
+    "category": "Social",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "CB501, 507 & 508",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000",
+    "description": "Join the amazing Scavenger Hunt event by RRC. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "RRC Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Mystry Box challenge",
+    "category": "Social",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "location": "CB311 & CB314",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000",
+    "description": "Join the amazing Mystry Box challenge event by RRC. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "RRC Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Human Knot",
+    "category": "Social",
+    "day": 3,
+    "date": "April 11, 2026",
+    "time": "10:00 AM",
+    "location": "CB501 & CB502",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000",
+    "description": "Join the amazing Human Knot event by RRC. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣K",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "RRC Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Channel Surfing",
+    "category": "Speech",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "Campus Venue",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=1000",
+    "description": "Join the amazing Channel Surfing event by Speakers Forum. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣K",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Speakers Forum Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Survival of the fittest",
+    "category": "Speech",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "Library 3rd Hall",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=1000",
+    "description": "Join the amazing Survival of the fittest event by Speakers Forum. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Speakers Forum Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Movie Screening",
+    "category": "Media",
+    "day": 3,
+    "date": "April 11, 2026",
+    "time": "10:00 AM",
+    "location": "Library Seminar Hall",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1000",
+    "description": "Join the amazing Movie Screening event by Shortfilm. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Shortfilm Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Cinequest",
+    "category": "Media",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "location": "CB521",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1000",
+    "description": "Join the amazing Cinequest event by Shortfilm. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Shortfilm Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Short Film contest",
+    "category": "Media",
+    "day": 3,
+    "date": "April 11, 2026",
+    "time": "02:00 PM",
+    "location": "Library Seminar Hall",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?q=80&w=1000",
+    "description": "Join the amazing Short Film contest event by Shortfilm. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Shortfilm Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Mathi Yoshi",
+    "category": "Cultural",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "CB504 & CB505",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=1000",
+    "description": "Join the amazing Mathi Yoshi event by Tamil Mandram. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Tamil Mandram Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Thirai Suzhal",
+    "category": "Cultural",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "location": "CB504 & CB505",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=1000",
+    "description": "Join the amazing Thirai Suzhal event by Tamil Mandram. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣1.5K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Tamil Mandram Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Olunga Paadu illana sprey adichiduvan",
+    "category": "Cultural",
+    "day": 3,
+    "date": "April 11, 2026",
+    "time": "10:00 AM",
+    "location": "CB504 & CB505",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?q=80&w=1000",
+    "description": "Join the amazing Olunga Paadu illana sprey adichiduvan event by Tamil Mandram. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Tamil Mandram Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "EPL",
+    "category": "Business",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "Biotech Hall",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000",
+    "description": "Join the amazing EPL event by ECell. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣4.5K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "ECell Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Disasterpeneur",
+    "category": "Business",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "02:00 PM",
+    "location": "CB302",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000",
+    "description": "Join the amazing Disasterpeneur event by ECell. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣1K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "ECell Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Start up war",
+    "category": "Business",
+    "day": 3,
+    "date": "April 11, 2026",
+    "time": "10:00 AM",
+    "location": "CB303",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1000",
+    "description": "Join the amazing Start up war event by ECell. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣1.5K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "ECell Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Shot on Highways",
+    "category": "Art",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "Virtual",
+    "location": "CB301",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1000",
+    "description": "Join the amazing Shot on Highways event by Photo Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣1.5K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Photo Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Frame by words",
+    "category": "Art",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "CB303",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=1000",
+    "description": "Join the amazing Frame by words event by Photo Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣1.5K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Photo Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Otakumania",
+    "category": "Tech",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "CB 321, CB322, CB323 & CB324",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000",
+    "description": "Join the amazing Otakumania event by Science Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Science Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Greenscreen",
+    "category": "Tech",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "location": "CB322 & CB323",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000",
+    "description": "Join the amazing Greenscreen event by Science Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Science Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Powerplay Arena",
+    "category": "Tech",
+    "day": 3,
+    "date": "April 11, 2026",
+    "time": "10:00 AM",
+    "location": "CB313 & CB314",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000",
+    "description": "Join the amazing Powerplay Arena event by Science Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Science Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Tellus Abyss",
+    "category": "Social",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "CB525",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000",
+    "description": "Join the amazing Tellus Abyss event by Care. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Care Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Token Takeover",
+    "category": "Social",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "location": "CB526, CB527 & CB528",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000",
+    "description": "Join the amazing Token Takeover event by Care. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣K",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Care Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Clash Troxphy",
+    "category": "Social",
+    "day": 3,
+    "date": "April 11, 2026",
+    "time": "10:00 AM",
+    "location": "CB526, CB527 & CB528",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000",
+    "description": "Join the amazing Clash Troxphy event by Care. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Care Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Saregama",
+    "category": "Social",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "CB536",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000",
+    "description": "Join the amazing Saregama event by Rotaract. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "TBA",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Rotaract Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "title": "The Royal Gambit",
+    "category": "Social",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "location": "Block 5 (3rd Floor) & (Ground Floor Area)",
+    "color": "#ffb7c5",
+    "image": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?q=80&w=1000",
+    "description": "Join the amazing The Royal Gambit event by Rotaract. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣K",
+    "regType": "Free",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Rotaract Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Overdrive",
+    "category": "Music",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "MPH",
+    "color": "#00d2ff",
+    "image": "https://images.unsplash.com/photo-1514525253361-bee8d48700df?q=80&w=1000",
+    "description": "Join the amazing Overdrive event by Music Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣10K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Music Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Crescendo",
+    "category": "Music",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "02:00 PM",
+    "location": "Library Seminar Hall",
+    "color": "#00d2ff",
+    "image": "https://images.unsplash.com/photo-1514525253361-bee8d48700df?q=80&w=1000",
+    "description": "Join the amazing Crescendo event by Music Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣6K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Music Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Solography",
+    "category": "Dance",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "10:00 AM",
+    "location": "OAT",
+    "color": "#ff0000",
+    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=1000",
+    "description": "Join the amazing Solography event by Dance Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣4K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Dance Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Groove Chemistry",
+    "category": "Dance",
+    "day": 1,
+    "date": "April 9, 2026",
+    "time": "02:00 PM",
+    "location": "OAT",
+    "color": "#ff0000",
+    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=1000",
+    "description": "Join the amazing Groove Chemistry event by Dance Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣4K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Dance Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Groovanza",
+    "category": "Dance",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "10:00 AM",
+    "location": "OAT",
+    "color": "#ff0000",
+    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=1000",
+    "description": "Join the amazing Groovanza event by Dance Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣12K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Dance Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Pairfect",
+    "category": "Dance",
+    "day": 2,
+    "date": "April 10, 2026",
+    "time": "02:00 PM",
+    "location": "MPH",
+    "color": "#ff0000",
+    "image": "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?q=80&w=1000",
+    "description": "Join the amazing Pairfect event by Dance Club. A signature event of Highways'26.",
+    "rules": [
+      "Mandatory registration required.",
+      "Judges' decision is final.",
+      "Bring college ID card.",
+      "Report 15 minutes early."
+    ],
+    "prizePool": "Γé╣6K",
+    "regType": "Paid",
+    "regFee": "Γé╣200",
+    "teamSize": "Solo",
+    "pocs": [
+      {
+        "name": "Dance Club Team",
+        "phone": "Register in App"
+      }
+    ]
+  }
+]

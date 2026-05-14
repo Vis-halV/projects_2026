@@ -5,162 +5,162 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="./src/styles/index.css" rel="stylesheet">
-    <link rel="stylesheet" href="./src/styles/loader.css">
+    <link rel="stylesheet" href="/src/styles/loader.css">
+    <link rel="stylesheet" href="/src/styles/scroll.css">
     
     <title>Highways '26</title>
 
 </head>
-<div id="loader">
-
-    <div class="door door-left"></div>
-    <div class="door door-right"></div>
-
-</div>
 <body>
 
-    <!-- Header Section -->
-    <header class="fixed top-0 left-0 w-full flex justify-center z-50 px-4">
+    <div id="loader" aria-hidden="true">
+        <div class="door door-left"></div>
+        <div class="door door-right"></div>
+    </div>
 
-        <div class="mt-4 w-full max-w-6xl flex items-center justify-between px-6 py-3
+    <!-- Header Section -->
+    <header class="fixed top-0 left-0 w-full flex justify-center z-50 px-6 md:px-12 lg:px-20">
+
+        <div class="mt-4 w-full max-w-7xl flex items-center justify-between px-6 py-3 text-white
                     bg-white/10 backdrop-blur-lg border border-white/20
                     rounded-full shadow-lg">
 
             <!-- Logo -->
-            <div class="text-lg font-semibold">
+            <div class="text-lg font-semibold tracking-tight">
                 Highways '26
             </div>
 
             <!-- Desktop Nav -->
             <nav class="hidden md:flex gap-8 text-sm font-medium">
 
-                <a href="#" class="hover:text-gray-300 transition">Home</a>
-                <a href="./src/pages/events.html" class="hover:text-gray-300 transition">Events</a>
-                <a href="./src/pages/schedule.html" class="hover:text-gray-300 transition">Schedule</a>
-                <a href="./src/pages/passes.html" class="hover:text-gray-300 transition">Get Passes</a>
-                <a href="./src/pages/sponsors.html" class="hover:text-gray-300 transition">Sponsors</a>
-                <a href="./src/pages/team.html" class="hover:text-gray-300 transition">Team</a>
+                <a href="#" class="hover:text-white/70 transition duration-300">Home</a>
+                <a href="./src/pages/events.html" class="hover:text-white/70 transition duration-300">Events</a>
+                <a href="./src/pages/schedule.html" class="hover:text-white/70 transition duration-300">Schedule</a>
+                <a href="./src/pages/passes.html" class="hover:text-white/70 transition duration-300">Get Passes</a>
+                <a href="./src/pages/sponsors.html" class="hover:text-white/70 transition duration-300">Sponsors</a>
 
             </nav>
 
             <!-- Mobile Button -->
-            <button id="menu-btn" class="md:hidden flex flex-col gap-1">
+            <button id="menu-btn" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu" class="md:hidden flex flex-col gap-1">
 
-                <span class="w-6 h-[2px] bg-black"></span>
-                <span class="w-6 h-[2px] bg-black"></span>
-                <span class="w-6 h-[2px] bg-black"></span>
+                <span class="w-6 h-[2px] bg-white"></span>
+                <span class="w-6 h-[2px] bg-white"></span>
+                <span class="w-6 h-[2px] bg-white"></span>
 
             </button>
-
+            
         </div>
 
     </header>
 
     <!-- Mobile Menu -->
     <div id="mobile-menu"
-        class="fixed top-0 left-0 w-full h-screen bg-white/90 backdrop-blur-lg
+        aria-hidden="true"
+        class="fixed top-0 left-0 z-50 w-full h-screen bg-black/70 text-white backdrop-blur-lg
                 flex flex-col items-center justify-center gap-8 text-xl font-semibold
-                translate-y-[-100%] transition-transform duration-300">
-
-        <a href="#">Home</a>
-        <a href="./src/pages/events.html">Events</a>
-        <a href="./src/pages/schedule.html">Schedule</a>
-        <a href="./src/pages/passes.html">Get Passes</a>
-        <a href="./src/pages/sponsors.html">Sponsors</a>
-        <a href="./src/pages/team.html">Team</a>
-
+                -translate-y-full transition-transform duration-300">
+            
+                <a href="#">Home</a>
+                <a href="./src/pages/events.html">Events</a>
+                <a href="./src/pages/schedule.html">Schedule</a>
+                <a href="./src/pages/passes.html">Get Passes</a>
+                <a href="./src/pages/sponsors.html">Sponsors</a>
+                
     </div>
 
     <main>
 
         <!-- Hero Section -->
-        <section class="hero-sec relative min-h-screen flex items-center overflow-hidden px-6">
+        <section class="hero-sec w-full px-6 md:px-12 lg:px-20 py-24 relative min-h-screen flex items-center overflow-hidden">
 
-        <div class="max-w-7xl mx-auto w-full flex flex-col items-center text-center gap-6 relative z-10">
+            <div class="max-w-7xl mx-auto w-full flex flex-col items-center text-center gap-6 relative z-10">
 
-            <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">
-            HIGHWAYS '26
-            </h1>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
+                HIGHWAYS '26
+                </h1>
 
-            <p class="text-base md:text-xl font-medium">
-            Door to Heaven Opens on
-            </p>
+                <p class="ds-subtitle font-medium">
+                Door to Heaven Opens on
+                </p>
 
-            <!-- Countdown -->
-            <div id="countdown" class="countdown-text font-black tracking-[0.08em] justify-center">
+                <!-- Countdown -->
+                <div id="countdown" class="countdown-text font-black tracking-[0.08em] justify-center">
 
-                <span id="days">00</span><span class="unit">D</span>
-                <span id="hours">00</span><span class="unit">H</span>
-                <span id="minutes">00</span><span class="unit">M</span>
-                <span id="seconds">00</span><span class="unit">S</span>
+                    <span id="days">00</span><span class="unit">D</span>
+                    <span id="hours">00</span><span class="unit">H</span>
+                    <span id="minutes">00</span><span class="unit">M</span>
+                    <span id="seconds">00</span><span class="unit">S</span>
+
+                </div>
 
             </div>
-
-        </div>
 
         </section>
 
         <!-- About Section -->
-        <section class="about-sec w-full px-6 md:px-12 lg:px-20 py-24 md:py-32">
+        <section class="about-sec w-full px-6 md:px-12 lg:px-20 py-24">
 
             <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
 
                 <!-- LEFT CONTENT -->
-                <div class="flex flex-col gap-10">
+                <div class="flex flex-col gap-8">
 
-                <h2 class="text-3xl md:text-5xl font-bold tracking-wide">
-                    THE SAGA BEGINS
-                </h2>
+                    <h2 class="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight">
+                        THE SAGA BEGINS
+                    </h2>
 
-                <div class="max-w-xl text-base md:text-lg leading-relaxed space-y-6">
-                    <p>
-                    Highways is the annual intercollegiate cultural festival of
-                    Sri Venkateswara College of Engineering (SVCE). Known for its
-                    vibrant atmosphere and creative energy, Highways brings
-                    together students from across the states to celebrate art,
-                    talent, and expression.
-                    </p>
-                </div>
+                    <div class="max-w-xl ds-body space-y-6">
+                        <p>
+                        Highways is the annual intercollegiate cultural festival of
+                        Sri Venkateswara College of Engineering (SVCE). Known for its
+                        vibrant atmosphere and creative energy, Highways brings
+                        together students from across the states to celebrate art,
+                        talent, and expression.
+                        </p>
+                    </div>
 
-                <!-- DAY BUTTONS -->
-<div class="flex flex-wrap gap-6" id="days-container">
+                    <!-- DAY BUTTONS -->
+                    <div class="flex flex-wrap gap-4 md:gap-6" id="days-container">
 
-  <button class="day-btn day1-btn" data-day="1">Day 1</button>
+                        <button type="button" class="day-btn day1-btn" data-day="1">Day 1</button>
+                        <button type="button" class="day-btn day2-btn" data-day="2">Day 2</button>
+                        <button type="button" class="day-btn day3-btn" data-day="3">Day 3</button>
 
-  <button class="day-btn day2-btn" data-day="2">Day 2</button>
+                    </div>
 
-  <button class="day-btn day3-btn" data-day="3">Day 3</button>
+                    <div id="day-overlay" aria-hidden="true">
 
-</div>
+                        <div id="day-dialog" role="dialog" aria-modal="true" aria-labelledby="dialog-title" tabindex="-1">
 
-                <div id="day-overlay">
+                            <div class="dialog-content">
+                            <h2 id="dialog-title" class="text-2xl md:text-3xl font-semibold tracking-tight"></h2>
+                            <p id="dialog-text" class="mt-3 ds-body"></p>
+                            <div class="dialog-actions">
+                                <button id="dialog-close" type="button" class="ds-btn-pill">Close</button>
+                            </div>
+                            </div>
 
-                    <div id="day-dialog">
-
-                        <div class="dialog-content">
-                        <h2 id="dialog-title"></h2>
-                        <p id="dialog-text"></p>
                         </div>
 
                     </div>
 
                 </div>
 
-            </div>
-
 
                 <!-- RIGHT VIDEO -->
-                <div class="relative w-full h-[320px] md:h-[420px] lg:h-[500px] overflow-hidden rounded-2xl">
+                <div class="relative w-full h-[320px] md:h-[420px] lg:h-[500px] overflow-hidden rounded-2xl border border-white/20">
 
-                <video
-                    id="video-grow"
-                    autoplay
-                    muted
-                    loop
-                    playsinline
-                    class="w-full h-full object-cover"
-                >
-                    <source src="./src/assets/about.mp4" type="video/mp4">
-                </video>
+                    <video
+                        id="video-grow"
+                        autoplay
+                        muted
+                        loop
+                        playsinline
+                        class="w-full h-full object-cover"
+                    >
+                        <source src="./src/assets/about.mp4" type="video/mp4">
+                    </video>
 
                 </div>
 
@@ -169,40 +169,43 @@
         </section>
         
         <!-- Celebrity Section -->
-        <section class="celeb-sec min-h-screen flex flex-col items-center justify-center py-20">
+        <section class="celeb-sec w-full px-6 md:px-12 lg:px-20 py-24">
 
-            <!-- Title -->
-            <h2 class="text-5xl md:text-6xl font-bold text-black mb-20">
-                Celebrity Reveal
-            </h2>
+            <div class="max-w-7xl mx-auto">
 
-            <!-- Grid -->
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-12 w-full max-w-6xl mx-auto place-items-center">
-
-                <!-- Card -->
-                <div class="celeb-placeholder">
-                    <div class="placeholder-box">
-                        <span>COMING<br>SOON</span>
-                    </div>
+                <div class="mb-12 text-center">
+                    <h2 class="ds-title">Celebrity Reveal</h2>
+                    <p class="ds-subtitle mt-4">Revealing soon.</p>
                 </div>
 
-                <div class="celeb-placeholder">
-                    <div class="placeholder-box">
-                        <span>COMING<br>SOON</span>
-                    </div>
-                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-10 w-full place-items-center">
 
-                <div class="celeb-placeholder">
-                    <div class="placeholder-box">
-                        <span>COMING<br>SOON</span>
+                    <!-- Card -->
+                    <div class="celeb-placeholder">
+                        <div class="placeholder-box">
+                            <span>COMING<br>SOON</span>
+                        </div>
                     </div>
-                </div>
 
-                <!-- center last card -->
-                <div class="celeb-placeholder md:col-span-3 flex justify-center">
-                    <div class="placeholder-box">
-                        <span>COMING<br>SOON</span>
+                    <div class="celeb-placeholder">
+                        <div class="placeholder-box">
+                            <span>COMING<br>SOON</span>
+                        </div>
                     </div>
+
+                    <div class="celeb-placeholder">
+                        <div class="placeholder-box">
+                            <span>COMING<br>SOON</span>
+                        </div>
+                    </div>
+
+                    <!-- center last card -->
+                    <div class="celeb-placeholder md:col-span-3 flex justify-center">
+                        <div class="placeholder-box">
+                            <span>COMING<br>SOON</span>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>
@@ -210,111 +213,187 @@
         </section>
 
         <!-- Glimpse Section -->
-        <section id="movie-section" class="movie-wrapper min-h-screen">
+        <section class="w-full px-6 md:px-12 lg:px-20 py-24">
+            <div class="mx-auto">
+                <div class="max-w-7xl mx-auto mb-12">
+                    <h2 class="ds-title">Glimpses</h2>
+                    <p class="ds-subtitle mt-4">A scroll through the vibe.</p>
+                </div>
 
-            <div class="movie-sticky">
+                <div id="movie-section" class="movie-wrapper">
+                    <div class="movie-sticky">
+                        <div id="movie-track">
 
-                <!-- horizontal container -->
-                <div id="movie-track">
+                            <div class="movie-tile vertical" style="top:18%; left:120px;">1</div>
+                            <div class="movie-tile horizontal" style="top:42%; left:420px;">2</div>
+                            <div class="movie-tile vertical" style="top:8%; left:880px;">3</div>
+                            <div class="movie-tile horizontal" style="top:50%; left:1250px;">4</div>
+                            <div class="movie-tile vertical" style="top:22%; left:1700px;">5</div>
+                            <div class="movie-tile horizontal" style="top:12%; left:2150px;">6</div>
+                            <div class="movie-tile vertical" style="top:48%; left:2600px;">7</div>
+                            <div class="movie-tile horizontal" style="top:28%; left:3050px;">8</div>
+                            <div class="movie-tile vertical" style="top:10%; left:3500px;">9</div>
+                            <div class="movie-tile horizontal" style="top:44%; left:3950px;">10</div>
 
-                    <div class="movie-tile vertical" style="top:18%; left:120px;">1</div>
-
-                    <div class="movie-tile horizontal" style="top:42%; left:420px;">2</div>
-
-                    <div class="movie-tile vertical" style="top:8%; left:880px;">3</div>
-
-                    <div class="movie-tile horizontal" style="top:50%; left:1250px;">4</div>
-
-                    <div class="movie-tile vertical" style="top:22%; left:1700px;">5</div>
-
-                    <div class="movie-tile horizontal" style="top:12%; left:2150px;">6</div>
-
-                    <div class="movie-tile vertical" style="top:48%; left:2600px;">7</div>
-
-                    <div class="movie-tile horizontal" style="top:28%; left:3050px;">8</div>
-
-                    <div class="movie-tile vertical" style="top:10%; left:3500px;">9</div>
-
-                    <div class="movie-tile horizontal" style="top:44%; left:3950px;">10</div>
+                        </div>
+                    </div>
 
                 </div>
+            </div>
+        </section>
+
+        <!-- Pass Section -->
+        <section class="pass-sec w-full px-6 md:px-12 lg:px-20 py-32 min-h-screen">
+
+            <div class="max-w-7xl mx-auto">
+
+                <div class="text-center mb-24 text-white">
+                    <h2 class="ds-title">BUY YOUR PASSES</h2>
+                    <p class="ds-subtitle mt-4">Choose your entry</p>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-14 place-items-center">
+
+                    <!-- PASS -->
+                    <div class="jp-pass">
+
+                        <h3 class="jp-title">1ST DAY PASS</h3>
+
+                        <p class="jp-old">Original Price ₹600</p>
+
+                        <div class="jp-prices">
+                            <p>SVCE Students <span>₹449</span></p>
+                            <p>Other College Students <span>₹449</span></p>
+                        </div>
+
+                        <button class="jp-btn">BUY NOW</button>
+
+                    </div>
+
+
+                    <!-- PASS -->
+                    <div class="jp-pass">
+
+                        <h3 class="jp-title">2ND DAY PASS</h3>
+
+                        <p class="jp-old">Original Price ₹600</p>
+
+                        <div class="jp-prices">
+                            <p>SVCE Students <span>₹549</span></p>
+                            <p>Other College Students <span>₹549</span></p>
+                        </div>
+
+                        <button class="jp-btn">BUY NOW</button>
+
+                    </div>
+
+
+                    <!-- PASS -->
+                    <div class="jp-pass main-pass">
+
+                        <h3 class="jp-title">HIGHWAYS'26 TICKET</h3>
+
+                        <p class="jp-old">Original Price ₹999</p>
+
+                        <div class="jp-prices">
+                            <p>SVCE Students <span>₹599</span></p>
+                            <p>Other College Students <span>₹799</span></p>
+                        </div>
+
+                        <button class="jp-btn">BUY NOW</button>
+
+                    </div>
+
+
+                    <!-- PASS -->
+                    <div class="jp-pass">
+
+                        <h3 class="jp-title">ALUMNI TICKET</h3>
+
+                        <div class="jp-prices">
+                            <p>SVCE Students <span>₹999</span></p>
+                            <p>Other College Students <span>₹999</span></p>
+                        </div>
+
+                        <button class="jp-btn">BUY NOW</button>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </section>
 
-        <!-- Pass Section -->
-        <section class="pass-sec min-h-screen flex items-center justify-center text-white">
-            <h2 class="text-5xl font-semibold">
-                Get Your Pass
-            </h2>
-        </section>
-
         <!-- FAQ Section -->
-        <section class="w-full px-6 md:px-12 lg:px-20 py-24 text-white">
+        <section class="w-full px-6 md:px-12 lg:px-20 py-24 text-white" id="faq">
 
-        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-start">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-start">
 
             <!-- LEFT SIDE -->
             <div class="space-y-6">
 
-            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight">
+            <h2 class="text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight">
                 Frequently asked
                 <span class="text-white/70">Questions</span>
             </h2>
+            <p class="ds-body max-w-xl">
+                Quick answers to the most common registration and on-campus queries.
+            </p>
 
             </div>
 
             <!-- RIGHT SIDE -->
-            <div class="space-y-4">
+            <div class="space-y-4 md:space-y-6">
 
             <div class="faq-item">
-                <button class="faq-question">
+                <button class="faq-question" type="button" id="faq-q1" aria-controls="faq-a1" aria-expanded="false">
                 How many events a delegate can participate?
                 <span class="faq-icon">+</span>
                 </button>
-                <div class="faq-answer">
+                <div class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1" aria-hidden="true">
                 A delegate can participate in multiple events depending on the event
                 schedule and availability.
                 </div>
             </div>
 
             <div class="faq-item">
-                <button class="faq-question">
+                <button class="faq-question" type="button" id="faq-q2" aria-controls="faq-a2" aria-expanded="false">
                 What is the last date for registration?
                 <span class="faq-icon">+</span>
                 </button>
-                <div class="faq-answer">
+                <div class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2" aria-hidden="true">
                 Registration closes one week before the event begins.
                 </div>
             </div>
 
             <div class="faq-item">
-                <button class="faq-question">
+                <button class="faq-question" type="button" id="faq-q3" aria-controls="faq-a3" aria-expanded="false">
                 What are the supporting facilities provided?
                 <span class="faq-icon">+</span>
                 </button>
-                <div class="faq-answer">
+                <div class="faq-answer" id="faq-a3" role="region" aria-labelledby="faq-q3" aria-hidden="true">
                 Accommodation guidance, parking, food stalls, and help desks will be
                 available.
                 </div>
             </div>
 
             <div class="faq-item">
-                <button class="faq-question">
+                <button class="faq-question" type="button" id="faq-q4" aria-controls="faq-a4" aria-expanded="false">
                 What are the policies to be followed?
                 <span class="faq-icon">+</span>
                 </button>
-                <div class="faq-answer">
+                <div class="faq-answer" id="faq-a4" role="region" aria-labelledby="faq-q4" aria-hidden="true">
                 Delegates must follow event guidelines and institutional rules.
                 </div>
             </div>
 
             <div class="faq-item">
-                <button class="faq-question">
+                <button class="faq-question" type="button" id="faq-q5" aria-controls="faq-a5" aria-expanded="false">
                 How about parking facilities for vehicles?
                 <span class="faq-icon">+</span>
                 </button>
-                <div class="faq-answer">
+                <div class="faq-answer" id="faq-a5" role="region" aria-labelledby="faq-q5" aria-hidden="true">
                 Parking areas will be allocated inside the campus for participants.
                 </div>
             </div>
@@ -326,61 +405,61 @@
         </section>
 
         <!-- Contact Section -->
-        <section class="w-full px-6 md:px-12 lg:px-20 py-24 text-white">
+        <section class="w-full px-6 md:px-12 lg:px-20 py-24 text-white" id="contact">
 
             <div class="max-w-7xl mx-auto">
 
                 <!-- Heading -->
-                <div class="mb-16 max-w-3xl space-y-3">
-                    <h2 class="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight">
+                <div class="mb-12 max-w-3xl space-y-3">
+                    <h2 class="ds-title">
                         For registration queries,
                     </h2>
-                    <p class="text-2xl sm:text-3xl text-gray-300">
+                    <p class="ds-subtitle">
                         please contact
                     </p>
                 </div>
 
                 <!-- Contact Grid -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
 
                     <!-- Card -->
-                    <div class="border border-white/15 rounded-2xl p-8 lg:p-10 space-y-5 transition duration-300 hover:border-white/30">
+                    <div class="ds-card space-y-5">
 
                         <h3 class="text-2xl lg:text-3xl font-semibold tracking-tight">
                             Pranneeth D K
                         </h3>
 
-                        <div class="space-y-2 text-gray-300">
-                            <p class="text-lg">+91 6379560034</p>
-                            <p class="text-lg">mail@pranneethdk.in</p>
+                        <div class="space-y-2 ds-body">
+                            <a class="block hover:text-white transition duration-300" href="tel:+916379560034">+91 6379560034</a>
+                            <a class="block hover:text-white transition duration-300" href="mailto:mail@pranneethdk.in">mail@pranneethdk.in</a>
                         </div>
 
                     </div>
 
                     <!-- Card -->
-                    <div class="border border-white/15 rounded-2xl p-8 lg:p-10 space-y-5 transition duration-300 hover:border-white/30">
+                    <div class="ds-card space-y-5">
 
                         <h3 class="text-2xl lg:text-3xl font-semibold tracking-tight">
                             Sowndhar V
                         </h3>
 
-                        <div class="space-y-2 text-gray-300">
-                            <p class="text-lg">+91 9025366598</p>
-                            <p class="text-lg">sowndhar06.v@gmail.com</p>
+                        <div class="space-y-2 ds-body">
+                            <a class="block hover:text-white transition duration-300" href="tel:+919025366598">+91 9025366598</a>
+                            <a class="block hover:text-white transition duration-300" href="mailto:sowndhar06.v@gmail.com">sowndhar06.v@gmail.com</a>
                         </div>
 
                     </div>
 
                     <!-- Card -->
-                    <div class="border border-white/15 rounded-2xl p-8 lg:p-10 space-y-5 transition duration-300 hover:border-white/30">
+                    <div class="ds-card space-y-5">
 
                         <h3 class="text-2xl lg:text-3xl font-semibold tracking-tight">
                             Sharvesh
                         </h3>
 
-                        <div class="space-y-2 text-gray-300">
-                            <p class="text-lg">+91 6380168529</p>
-                            <p class="text-lg">Lorem ipsum dolor sit amet</p>
+                        <div class="space-y-2 ds-body">
+                            <a class="block hover:text-white transition duration-300" href="tel:+916380168529">+91 6380168529</a>
+                            <span class="block">Lorem ipsum dolor sit amet</span>
                         </div>
 
                     </div>
@@ -399,7 +478,7 @@
                 <!-- LEFT CONTENT -->
                 <div class="space-y-8 max-w-xl">
 
-                    <h2 class="text-4xl sm:text-5xl lg:text-6xl font-semibold leading-[1.1] tracking-tight">
+                    <h2 class="ds-title">
                         Join Us at
                         <br>
                         Sri Venkateswara
@@ -409,8 +488,8 @@
                         Engineering
                     </h2>
 
-                    <p class="text-base sm:text-lg text-gray-300 leading-relaxed">
-                        FIESTAA'26 will be hosted at the vibrant campus of
+                    <p class="ds-body">
+                        Highways'26 will be hosted at the vibrant campus of
                         <span class="font-semibold text-white">
                             Sri Venkateswara College of Engineering
                         </span>,
@@ -439,17 +518,48 @@
     </main>
 
     <!-- Footer Section -->
-    <footer>
+    <footer class="w-full px-6 md:px-12 lg:px-20 py-20">
 
-        <!-- 3-grids -->
-        <div class="footer-content"></div>
+        <div class="max-w-7xl mx-auto flex flex-col items-center text-center gap-10">
 
-        <!-- footer-name -->
-        <div></div>
-        
+            <!-- Logo -->
+            <img
+            src="./src/assets/highways-logo.webp"
+            alt="Highways '26 Logo"
+            class="h-12 w-auto object-contain"
+            />
+
+            <!-- Navigation -->
+            <nav class="flex flex-wrap justify-center gap-6 md:gap-8 text-sm font-medium">
+
+                <a href="#">Home</a>
+                <a href="./src/pages/events.html">Events</a>
+                <a href="./src/pages/schedule.html">Schedule</a>
+                <a href="./src/pages/passes.html">Get Passes</a>
+                <a href="./src/pages/sponsors.html">Sponsors</a>
+                <a href="#faq">FAQ</a>
+
+            </nav>
+
+            <nav class="flex flex-wrap justify-center gap-6 md:gap-8 text-sm font-medium">
+            
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+                <a href="#contact">Contact</a>
+            
+            </nav>
+
+            <!-- Copyright -->
+            <p class="text-sm text-white/60">
+            © 2026 Highways
+            </p>
+
+        </div>
+
     </footer>
 
     <!-- Scripts -->
+     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
     <script src="./src/js/app.js"></script>
 </body>
 </html>
