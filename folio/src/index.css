@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+    /* Brand */
+    --color-primary: #0a2a1a;
+    --color-primary-hover: #123d27;
+    --color-primary-soft: #e8f0eb;
+
+    --color-secondary: #7a9a82;
+    --color-secondary-hover: #66866f;
+    --color-secondary-soft: #e8eee9;
+
+    /* Backgrounds */
+    --color-background: #f4f7f5;
+    --color-background-subtle: #edf3ef;
+
+    --color-surface: #ffffff;
+    --color-surface-muted: #f8faf9;
+
+    /* Typography */
+    --color-foreground: #0a2a1a;
+    --color-muted: #64746a;
+    --color-muted-foreground: #7a887f;
+
+    /* Borders */
+    --color-border: #dfe8e2;
+    --color-border-strong: #c9d7cd;
+
+    /* States */
+    --color-success: #4f7d5c;
+    --color-success-soft: #e9f2eb;
+
+    --color-warning: #b68a3a;
+    --color-warning-soft: #faf3e4;
+
+    --color-danger: #b85c5c;
+    --color-danger-soft: #f8eaea;
+
+    /* Resume */
+    --color-resume: #ffffff;
+    --color-resume-text: #1f2923;
+
+    /* Shadows */
+    --shadow-soft: 0 2px 12px rgba(10, 42, 26, 0.06);
+    --shadow-card: 0 8px 30px rgba(10, 42, 26, 0.08);
+    --shadow-resume: 0 12px 40px rgba(10, 42, 26, 0.12);
+}
